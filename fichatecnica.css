@@ -1,0 +1,53 @@
+p{font-style: italic;}
+body{background: grey;
+  /*  background: rgb(240,249,255); /* Old browsers */
+  /*  background: -moz-linear-gradient(top, rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6+ */
+  /*  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(240,249,255,1)), color-stop(47%,rgba(203,235,255,1)), color-stop(100%,rgba(161,219,255,1))); /* Chrome,Safari4+ */
+  /*  background: -webkit-linear-gradient(top, rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    }
+    
+
+table{border-collapse:collapse;}
+table,td,th{border:2px solid black;}
+
+    
+/*_________estilo de formato para los combos de marca,modelo,año_________________________________*/
+#combo_marca{width:125px;margin: auto;height: 45px;margin-left:5px;margin-right:20px;float:left;}
+#combo_modelo{width: 115px;height: 45px;margin-right: 15px; float: left;}
+#combo_año{width: 85px; height: 45px;float: left;}
+
+/*_________estilo de formato para los combos de Region y marca de scanner_________________________*/
+#combo_region{width:125px;margin: auto;height: 45px;margin-left:5px;margin-right:20px;float:left;}
+#combo_scanner_region{width: 50%;height: 45px;margin-right: 15px; float: left;}
+
+/*Formato para la pagina principal*/
+#contenedor_pri{margin-bottom: 30px;background-color: aqua;}
+#btn_buscar{margin-top:15px;}
+
+
+
+.titulo{font-family: cursive;background-color: darkgrey;}
+.txtsc{width: 25%;}
+.fort_caja_pri{width:60%;height:165px;margin: auto;}
+.fort_combo{width: 60%;height: 45px;margin-left:212px;}
+.fort_caja_vehiculo{width:50%;height:50px;}
+.div_area{width: 300px;}
+.txtarea{margin-top: 5px;margin-left:2px;width:300px}
+
+#vin{float: left;}
+#modelo{float: left;}#serial{float: left;}#version{float: left;}
+#contenedor{width: 85%;height: auto; margin-top: 5px;margin: auto;
+ background: white;
+ /* background: #00b7ea; /* Old browsers */
+ /* background: -moz-linear-gradient(top, #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
+ /* background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
+ /* background: -webkit-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+ /* background: -o-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
+ /* background: -ms-linear-gradient(top, #00b7ea 0%,#009ec3 100%); /* IE10+ */
+ /* background: linear-gradient(to bottom, #00b7ea 0%,#009ec3 100%); /* W3C */
+ /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=0 ); /* IE6-9 */
+
+}
+
+   
+
